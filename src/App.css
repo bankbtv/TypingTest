@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenner{
+  height: 100vh;
+  width: 100vw;
+  background-color: indigo;
+}
+.count{
+  font-size: 42px;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.textBox{
+  width: 60%;
+  height: 20%;
+  margin: auto;
+  font-size: larger;
+  background-color: slategrey;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.textEl{
+  pointer-events: none;
+}
+.true{
+  color: green;
+}
+.false{
+  color: red;
+  text-decoration: underline;
+}
+
+.inputTextBox{
+  width: 60%;
+  height: 20%;
+  margin: auto;
+  font-size: larger;
+  border-radius: 1rem;
+}
+.textarea{
+  width: 100%;
+  height: 100%;
+  background-color: slategrey;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  resize: none;
+  border: 2px solid black;
+}
+
+.reset{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.resetB{
+  width: 10%;
+}
+
